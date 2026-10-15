@@ -1,0 +1,35 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local development settings and secrets
+**/appsettings.Development.json
+**/secrets.json
+**/secrets.*.json
+
+# .NET generated files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# React and Vite generated files
+**/node_modules/
+**/dist/
+
+# Private uploads and local application data
+**/App_Data/private-uploads/
+**/private-uploads/
+**/uploads/
+*.db
+*.sqlite
+
+# Logs and operating system files
+*.log
+Thumbs.db
+.DS_Store
